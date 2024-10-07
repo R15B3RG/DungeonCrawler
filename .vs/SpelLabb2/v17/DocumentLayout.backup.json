@@ -1,0 +1,171 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\gameobjects\\enemies\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\gameobjects\\enemies\\snake.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\gameobjects\\enemies\\rat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\gameobjects\\enemies\\rat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\gameobjects\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\gameobjects\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\levelelement\\levelelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\levelelement\\levelelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\dice\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\dice\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\gameobjects\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\gameobjects\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|c:\\users\\fuelf\\source\\repos\\spellabb2\\spellabb2\\gameobjects\\enemies\\level\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F89147C7-03D3-4EE7-B95B-C6E7A1E2D25E}|SpelLabb2\\SpelLabb2.csproj|solutionrelative:spellabb2\\gameobjects\\enemies\\level\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dice.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\Dice\\Dice.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\Dice\\Dice.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\Dice\\Dice.cs",
+              "RelativeToolTip": "SpelLabb2\\Dice\\Dice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T12:24:54.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Player\\Player.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\GameObjects\\Player\\Player.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Player\\Player.cs",
+              "RelativeToolTip": "SpelLabb2\\GameObjects\\Player\\Player.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-02T10:08:08.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LevelData.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\LevelData.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\LevelData.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\LevelData.cs",
+              "RelativeToolTip": "SpelLabb2\\LevelData.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T15:16:42.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Wall.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Level\\Wall.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\GameObjects\\Enemies\\Level\\Wall.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Level\\Wall.cs",
+              "RelativeToolTip": "SpelLabb2\\GameObjects\\Enemies\\Level\\Wall.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:45:19.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Snake.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Snake.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\GameObjects\\Enemies\\Snake.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Snake.cs",
+              "RelativeToolTip": "SpelLabb2\\GameObjects\\Enemies\\Snake.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:22:38.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rat.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Rat.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\GameObjects\\Enemies\\Rat.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Rat.cs",
+              "RelativeToolTip": "SpelLabb2\\GameObjects\\Enemies\\Rat.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:22:30.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enemy.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Enemy.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\GameObjects\\Enemies\\Enemy.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\GameObjects\\Enemies\\Enemy.cs",
+              "RelativeToolTip": "SpelLabb2\\GameObjects\\Enemies\\Enemy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:21:46.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LevelElement.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\LevelElement\\LevelElement.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\LevelElement\\LevelElement.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\LevelElement\\LevelElement.cs",
+              "RelativeToolTip": "SpelLabb2\\LevelElement\\LevelElement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T11:04:51.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\Program.cs",
+              "RelativeDocumentMoniker": "SpelLabb2\\Program.cs",
+              "ToolTip": "C:\\Users\\fuelf\\source\\repos\\SpelLabb2\\SpelLabb2\\Program.cs",
+              "RelativeToolTip": "SpelLabb2\\Program.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwDAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T10:45:42.099Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

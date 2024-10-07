@@ -1,0 +1,14 @@
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.AssemblyInfoInputs.cache
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.AssemblyInfo.cs
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.csproj.CoreCompileInputs.cache
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\bin\Debug\net8.0\SpelLabb2.exe
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\bin\Debug\net8.0\SpelLabb2.deps.json
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\bin\Debug\net8.0\SpelLabb2.runtimeconfig.json
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\bin\Debug\net8.0\SpelLabb2.dll
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\bin\Debug\net8.0\SpelLabb2.pdb
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.dll
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\refint\SpelLabb2.dll
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.pdb
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.genruntimeconfig.cache
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\ref\SpelLabb2.dll
