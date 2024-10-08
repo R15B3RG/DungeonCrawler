@@ -134,94 +134,96 @@ class Program
             string battleOutcome = ""; // Sträng för att lagra hela stridsresultatet
 
             // Kolla vem som attackerar först baserat på vem som går in i vem
-            // Om spelaren går in i fienden, attackerar spelaren först
             if (Math.Abs(levelData.player.X - enemy.X) + Math.Abs(levelData.player.Y - enemy.Y) == 1)
             {
-                // Spelarens attack
-                int playerAttackPoints = player.AttackDice.Throw();
-                int enemyDefencePoints = enemy.DefenceDice.Throw();
-                int damageToEnemy = playerAttackPoints - enemyDefencePoints;
-
-                // Skriv ut spelarens attack
-                battleOutcome += $"You (ATK: {player.AttackDice} => {playerAttackPoints}) attacked the {enemy.Name} (DEF: {enemy.DefenceDice} => {enemyDefencePoints}), {DescribeEnemyDamage(damageToEnemy)}\n";
-
-                if (damageToEnemy > 0)
+                // Kontrollerar vilken karaktär som går in i den andra
+                if (levelData.player.X == enemy.X && levelData.player.Y == enemy.Y - 1) // Spelaren går ner
                 {
-                    enemy.HP -= damageToEnemy;
+                    // Spelarens attack
+                    int playerAttackPoints = player.AttackDice.Throw();
+                    int enemyDefencePoints = enemy.DefenceDice.Throw();
+                    int damageToEnemy = playerAttackPoints - enemyDefencePoints;
+
+                    // Skriv ut spelarens attack
+                    battleOutcome += $"You (ATK: {player.AttackDice} => {playerAttackPoints}) attacked the {enemy.Name} (DEF: {enemy.DefenceDice} => {enemyDefencePoints}), {DescribeEnemyDamage(damageToEnemy)}\n";
+
+                    if (damageToEnemy > 0)
+                    {
+                        enemy.HP -= damageToEnemy;
+                    }
+
+                    // Kontrollera om fienden dog
+                    if (enemy.HP <= 0)
+                    {
+                        battleOutcome += $"The {enemy.Name} has been slain!\n";
+                        enemy.ShouldDraw = false;
+                        levelData.RemoveEnemy(enemy);
+                        battleText = battleOutcome; // Spara stridsresultatet
+                        return;
+                    }
+
+                    // Fiendens motattack
+                    int enemyAttackPoints = enemy.AttackDice.Throw();
+                    int playerDefencePoints = player.DefenceDice.Throw();
+                    int damageToPlayer = enemyAttackPoints - playerDefencePoints;
+
+                    // Skriv ut fiendens motattack
+                    battleOutcome += $"The {enemy.Name} (ATK: {enemy.AttackDice} => {enemyAttackPoints}) attacked you (DEF: {player.DefenceDice} => {playerDefencePoints}), {DescribePlayerDamage(damageToPlayer)}\n";
+
+                    if (damageToPlayer > 0)
+                    {
+                        player.Health -= damageToPlayer;
+                    }
                 }
-
-                // Kontrollera om fienden dog
-                if (enemy.HP <= 0)
+                else // Fienden attackerar först
                 {
-                    battleOutcome += $"The {enemy.Name} has been slain!\n";
-                    enemy.ShouldDraw = false;
-                    levelData.RemoveEnemy(enemy);
-                    battleText = battleOutcome; // Spara stridsresultatet
-                    return;
-                }
+                    // Fiendens attack
+                    int enemyAttackPoints = enemy.AttackDice.Throw();
+                    int playerDefencePoints = player.DefenceDice.Throw();
+                    int damageToPlayer = enemyAttackPoints - playerDefencePoints;
 
-                // Fiendens motattack
-                int enemyAttackPoints = enemy.AttackDice.Throw();
-                int playerDefencePoints = player.DefenceDice.Throw();
-                int damageToPlayer = enemyAttackPoints - playerDefencePoints;
+                    // Skriv ut fiendens attack
+                    battleOutcome += $"The {enemy.Name} (ATK: {enemy.AttackDice} => {enemyAttackPoints}) attacked you (DEF: {player.DefenceDice} => {playerDefencePoints}), {DescribePlayerDamage(damageToPlayer)}\n";
 
-                // Skriv ut fiendens motattack
-                battleOutcome += $"The {enemy.Name} (ATK: {enemy.AttackDice} => {enemyAttackPoints}) attacked you (DEF: {player.DefenceDice} => {playerDefencePoints}), {DescribePlayerDamage(damageToPlayer)}\n";
+                    if (damageToPlayer > 0)
+                    {
+                        player.Health -= damageToPlayer;
+                    }
 
-                if (damageToPlayer > 0)
-                {
-                    player.Health -= damageToPlayer;
-                }
-            }
+                    // Kontrollera om spelaren dog
+                    if (player.Health <= 0)
+                    {
+                        battleOutcome += "You have been defeated! Game Over.\n";
+                        Environment.Exit(0); // Avsluta spelet
+                        return; // Ingen mer loggning behövs
+                    }
 
-            // Om fienden går in i spelaren, attackerar fienden först
-            else if (Math.Abs(levelData.player.X - enemy.X) + Math.Abs(levelData.player.Y - enemy.Y) == 1)
-            {
-                // Fiendens attack
-                int enemyAttackPoints = enemy.AttackDice.Throw();
-                int playerDefencePoints = player.DefenceDice.Throw();
-                int damageToPlayer = enemyAttackPoints - playerDefencePoints;
+                    // Spelarens motattack
+                    int playerAttackPoints = player.AttackDice.Throw();
+                    int enemyDefencePoints = enemy.DefenceDice.Throw();
+                    int damageToEnemy = playerAttackPoints - enemyDefencePoints;
 
-                // Skriv ut fiendens attack
-                battleOutcome += $"The {enemy.Name} (ATK: {enemy.AttackDice} => {enemyAttackPoints}) attacked you (DEF: {player.DefenceDice} => {playerDefencePoints}), {DescribePlayerDamage(damageToPlayer)}\n";
+                    // Skriv ut spelarens attack
+                    battleOutcome += $"You (ATK: {player.AttackDice} => {playerAttackPoints}) attacked the {enemy.Name} (DEF: {enemy.DefenceDice} => {enemyDefencePoints}), {DescribeEnemyDamage(damageToEnemy)}\n";
 
-                if (damageToPlayer > 0)
-                {
-                    player.Health -= damageToPlayer;
-                }
+                    if (damageToEnemy > 0)
+                    {
+                        enemy.HP -= damageToEnemy;
+                    }
 
-                // Kontrollera om spelaren dog
-                if (player.Health <= 0)
-                {
-                    battleOutcome += "You have been defeated! Game Over.\n";
-                    Environment.Exit(0); // Avsluta spelet
-                    return; // Ingen mer loggning behövs
-                }
-
-                // Spelarens motattack
-                int playerAttackPoints = player.AttackDice.Throw();
-                int enemyDefencePoints = enemy.DefenceDice.Throw();
-                int damageToEnemy = playerAttackPoints - enemyDefencePoints;
-
-                // Skriv ut spelarens attack
-                battleOutcome += $"You (ATK: {player.AttackDice} => {playerAttackPoints}) attacked the {enemy.Name} (DEF: {enemy.DefenceDice} => {enemyDefencePoints}), {DescribeEnemyDamage(damageToEnemy)}\n";
-
-                if (damageToEnemy > 0)
-                {
-                    enemy.HP -= damageToEnemy;
-                }
-
-                // Kontrollera om fienden dog
-                if (enemy.HP <= 0)
-                {
-                    battleOutcome += $"The {enemy.Name} has been slain!\n";
-                    enemy.ShouldDraw = false;
-                    levelData.RemoveEnemy(enemy);
+                    // Kontrollera om fienden dog
+                    if (enemy.HP <= 0)
+                    {
+                        battleOutcome += $"The {enemy.Name} has been slain!\n";
+                        enemy.ShouldDraw = false;
+                        levelData.RemoveEnemy(enemy);
+                    }
                 }
             }
 
             battleText = battleOutcome; // Spara stridsresultatet
         }
+
 
 
         // Beskrivning av skada beroende på differens

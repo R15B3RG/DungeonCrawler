@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpelLabb2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+860e5e1591408ca5bc4600152f643cee056d45d6")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpelLabb2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpelLabb2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

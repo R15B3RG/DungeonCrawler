@@ -12,3 +12,4 @@ C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\refint\SpelLabb
 C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.pdb
 C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.genruntimeconfig.cache
 C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\ref\SpelLabb2.dll
+C:\Users\fuelf\source\repos\SpelLabb2\SpelLabb2\obj\Debug\net8.0\SpelLabb2.sourcelink.json
